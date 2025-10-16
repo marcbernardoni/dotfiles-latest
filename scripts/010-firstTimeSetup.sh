@@ -310,24 +310,24 @@ cd ~/github/dotfiles-latest/brew/00-base
 echo
 echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
 echo "Installing all 'base' brew packages"
-brew bundle
+brew bundle || true
 
 cd ~/github/dotfiles-latest/brew/10-essential
 echo
 echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
 echo "Installing all 'essentials' brew packages"
-brew bundle
+brew bundle || true
 
 cd ~/github/dotfiles-latest/brew/20-nice-to-have
 echo
 echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
 echo "Installing all 'nice-to-have' brew packages"
-brew bundle
+brew bundle || true
 
 echo
 echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
 echo "${boldGreen}Output of brew doctor command below${noColor}"
-brew doctor
+brew doctor || true
 
 # Ask for confirmation to proceed
 echo
