@@ -1,5 +1,5 @@
-# /Users/morifen/github/scripts/brew/10-essential/Brewfile
-# https://github.com/marcbernardoni/scripts/blob/main/brew/10-essential/Brewfile
+# /Users/morifen/github/dotfiles-latest/brew/10-essential/Brewfile
+# https://github.com/marcbernardoni/dotfiles-latest/blob/main/brew/10-essential/Brewfile
 
 # Adding taps (repo) on top as I was getting errors
 tap "jesseduffield/lazygit"
@@ -13,14 +13,14 @@ brew "neovim"				# Ambitious Vim-fork focused on extensibility and agility
 brew "gnu-sed"				# GNU implementation of the famous stream editor
 brew "jesseduffield/lazygit/lazygit"	# Simple terminal UI for git commands
 brew "ripgrep"				# Search tool like grep and The Silver Searcher
-brew "fd"				# Simple, fast and user-friendly alternative to find
+brew "fd"				    # Simple, fast and user-friendly alternative to find
 brew "fontconfig"			# XML-based font configuration API for X Windows
 
 ###############################################################################
 
-brew "bind"				# Implementation of the DNS protocols
-brew "helm"				# Kubernetes package manager
-brew "kubernetes-cli"			# Kubernetes command-line interface
+brew "bind"				    # Implementation of the DNS protocols
+brew "helm"				    # Kubernetes package manager
+brew "kubernetes-cli"		# Kubernetes command-line interface
 brew "mysql-client"			# Open source relational database management system
 brew "pngpaste"				# Paste PNG into files (used by obsidian.nvim to paste images)
 brew "trash"				# CLI tool that moves files or folder to the trash
@@ -29,9 +29,9 @@ cask "raindropio"			# All-in-one bookmark manager
 cask "cursorcerer"			# Preference Pane for controlling cursor hiding
 cask "steermouse"			# Customise mouse buttons, wheels and cursor speed
 
-brew "switchaudio-osx"			# Change macOS audio source from the command-line
-brew "gh"				# GitHub command-line tool
-brew "go"				# Open source programming language to build simple/reliable/efficient software
+brew "switchaudio-osx"		# Change macOS audio source from the command-line
+brew "gh"				    # GitHub command-line tool
+brew "go"				    # Open source programming language to build simple/reliable/efficient software
 brew "git-delta"			# Syntax-highlighting pager for git and diff output
 brew "imagemagick"			# Tools and libraries to manipulate images in many formats ( ImageMagick dependency)
 brew "pkgconf"				# Package compiler and linker metadata toolkit
@@ -40,23 +40,23 @@ cask "mouseless"			# Mouse control with the keyboard
 cask "homerow"				# Keyboard shortcuts for every button on your screen
 cask "chatgpt"				# OpenAI's official ChatGPT desktop app
 cask "neovide"				# No Nonsense Neovim Client in Rust
-brew "btop"				# Resource monitor. C++ version and continuation of bashtop and bpytop
+brew "btop"				    # Resource monitor. C++ version and continuation of bashtop and bpytop
 cask "keycastr"				# Open-source keystroke visualiser
 cask "upscayl"				# AI image upscaler
 
 brew "ast-grep"				# Code searching, linting, rewriting
 
 # Not essentials, but added them here, as I install them all the time ;)
-cask "1password-cli"                    # Command-line interface for 1Password
-cask "google-chrome"			# Web browser
-cask "brave-browser"			# Web browser focusing on privacy
+cask "1password-cli"        # Command-line interface for 1Password
+cask "google-chrome"		# Web browser
+cask "brave-browser"		# Web browser focusing on privacy
 cask "zen-browser"			# Gecko based web browser
-cask "microsoft-edge"			# Multi-platform web browser
+cask "microsoft-edge"		# Multi-platform web browser
 cask "vivaldi"				# Web browser with built-in email client focusing on customization and control
 cask "obsidian"				# Knowledge base that works on top of a local folder of plain text Markdown files
 cask "spotify"				# Music streaming service
 cask "hammerspoon"			# Desktop automation application
-cask "hot"				# Menu bar application that displays the CPU speed limit due to thermal issues
+cask "hot"				    # Menu bar application that displays the CPU speed limit due to thermal issues
 cask "shadow"				# Online virtualised computer
 
 brew "fastfetch"			# Like neofetch, but much faster because written mostly in C

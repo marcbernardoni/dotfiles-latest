@@ -1,29 +1,29 @@
-# /Users/morifen/github/scripts/brew/00-base/Brewfile
-# https://github.com/marcbernardoni/scripts/blob/main/brew/00-base/Brewfile
+# /Users/morifen/github/dotfiles-latest/brew/00-base/Brewfile
+# https://github.com/marcbernardoni/dotfiles-latest/blob/main/brew/00-base/Brewfile
 
 # Adding taps (repo) on top as I was getting errors
 tap "FelixKratz/formulae"
 
-brew "wget"			# Internet file retriever
-brew "fzf"			# Command-line fuzzy finder written in Go
-brew "git"			# Distributed revision control system
-brew "node"			# Also known as: node.js, node@24, nodejs, npm
-brew "starship"			# Cross-shell prompt for astronauts
-brew "tmux"			# Terminal multiplexer
-brew "tree"			# Display directories as trees (with optional color/HTML output)
-brew "watch"			# Executes a program periodically, showing output fullscreen
-brew "yarn"			# JavaScript package manager
-brew "zoxide"			# Shell extension to navigate your filesystem faster
-brew "bat"			# Clone of cat(1) with syntax highlighting and Git integration
-brew "eza"			# Modern, maintained replacement for ls
+brew "wget"			        # Internet file retriever
+brew "fzf"			        # Command-line fuzzy finder written in Go
+brew "git"			        # Distributed revision control system
+brew "node"			        # Also known as: node.js, node@24, nodejs, npm
+brew "starship"			    # Cross-shell prompt for astronauts
+brew "tmux"			        # Terminal multiplexer
+brew "tree"			        # Display directories as trees (with optional color/HTML output)
+brew "watch"			    # Executes a program periodically, showing output fullscreen
+brew "yarn"			        # JavaScript package manager
+brew "zoxide"			    # Shell extension to navigate your filesystem faster
+brew "bat"			        # Clone of cat(1) with syntax highlighting and Git integration
+brew "eza"			        # Modern, maintained replacement for ls
 brew "zsh-autosuggestions"	# Fish-like fast/unobtrusive autosuggestions for zsh
-brew "zsh-vi-mode"		# Better and friendly vi(vim) mode plugin for ZSH
-brew "wordnet"			# Lexical database for the English language
+brew "zsh-vi-mode"		    # Better and friendly vi(vim) mode plugin for ZSH
+brew "wordnet"			    # Lexical database for the English language
 
-cask "kitty"			# GPU-based terminal emulator
-cask "wezterm"			# GPU-accelerated cross-platform terminal emulator and multiplexer
-cask "ghostty"			# Terminal emulator that uses platform-native UI and GPU acceleration
+cask "kitty"			    # GPU-based terminal emulator
+cask "wezterm"			    # GPU-accelerated cross-platform terminal emulator and multiplexer
+cask "ghostty"			    # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "coconutbattery"		# Tool to show live information about the batteries in various devices
 
-brew "jq"			# Lightweight and flexible command-line JSON processor
-brew "sketchybar"		# Highly flexible, customizable, fast and powerful status bar
+brew "jq"			        # Lightweight and flexible command-line JSON processor
+brew "sketchybar"		    # Highly flexible, customizable, fast and powerful status bar

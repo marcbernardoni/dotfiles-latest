@@ -1,12 +1,12 @@
-# /Users/morifen/github/scripts/brew/30-optional/Brewfile
-# https://github.com/marcbernardoni/scripts/blob/main/brew/30-optional/Brewfile
+# /Users/morifen/github/dotfiles-latest/brew/30-optional/Brewfile
+# https://github.com/marcbernardoni/dotfiles-latest/blob/main/brew/30-optional/Brewfile
 
-cask "canva"							# Design tool
-cask "gimp"							# Free and open-source image editor
-cask "imageoptim"						# Tool to optimise images to a smaller size
-cask "slack"							# Team communication and collaboration software
-cask "visual-studio-code"					# Open-source code editor
-cask "libreoffice"						# Free cross-platform office suite, fresh version
-# cask "microsoft-teams"					# Meet, chat, call, and collaborate in just one place
-cask "mysqlworkbench"						# Visual tool to design, develop and administer MySQL servers
+cask "canva"				# Design tool
+cask "gimp"					# Free and open-source image editor
+cask "imageoptim"			# Tool to optimise images to a smaller size
+cask "slack"				# Team communication and collaboration software
+cask "visual-studio-code"	# Open-source code editor
+cask "libreoffice"			# Free cross-platform office suite, fresh version
+# cask "microsoft-teams"	# Meet, chat, call, and collaborate in just one place
+cask "mysqlworkbench"		# Visual tool to design, develop and administer MySQL servers
 

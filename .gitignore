@@ -1,0 +1,100 @@
+node_modules
+
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
+
+*.swp
+
+# Compiled Lua sources
+luac.out
+
+# luarocks build files
+*.src.rock
+*.tar.gz
+
+# Object files
+*.o
+*.os
+*.ko
+*.obj
+*.elf
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+*.def
+*.exp
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Python
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+plugin/packer_compiled.lua
+karabiner/yarn.lock
+karabiner/package-lock.json
+nvim-lazyvim/lazyvim.json
+brew/essential/Brewfile.lock.json
+karabiner/mxstbr/yarn.lock
+brew/10-essential/Brewfile.lock.json
+server exited unexpectedly
+youtube-banner.txt
+
+*.DS_Store
+*server exited unexpectedly
+sticky.md
+.sticky.md.swo
+sticky.md
+neovim/neobean-sticky/skitty-notes.md
+karabiner/mxstbr/automatic_backups
+neovim/neobean-sticky/img
+neovim/neobean-sticky/lua/config/autocmds.lua
+neovim/neobean-sticky/lua/config/colors.lua
+neovim/neobean-sticky/lua/config/highlights.lua
+neovim/neobean-sticky/lua/config/keymaps.lua
+neovim/neobean-sticky/lua/plugins/auto-save.lua
+neovim/neobean-sticky/lua/plugins/mini-files.lua
+neovim/neobean-sticky/lua/plugins/render-markdown.lua
+neovim/neobean-sticky/lua/plugins/telescope.lua
+neovim/neobean-sticky/init.lua
+neovim/neobean-sticky/snippets
+neovim/neobean-sticky/spell
+neovim/neobean/lazyvim.json
+neovim/neobean-sticky/lazyvim.json
+neovim/neobean-sticky/lua/config/modules
+neovim/neobean-sticky/lua/plugins/core.lua
+neovim/lazyvim/lazyvim.json
+neovim/neobean/lua/.DS_Store
+kitty/sessions/daily.kitty-session
