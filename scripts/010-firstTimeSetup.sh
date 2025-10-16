@@ -306,4 +306,32 @@ echo "########################################################################"
 echo "Install brew packages"
 echo "########################################################################"
 
+cd ~/github/dotfiles-latest/brew/00-base
+echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
+echo "Installing all 'base' brew packages"
+brew bundle
 
+cd ~/github/dotfiles-latest/brew/10-essentials
+echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
+echo "Installing all 'essentials' brew packages"
+brew bundle
+
+cd ~/github/dotfiles-latest/brew/20-nice-to-have
+echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
+echo "Installing all 'nice-to-have' brew packages"
+brew bundle
+
+cd ~/github/dotfiles-latest/brew/30-optional
+echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
+echo "${boldGreen}Output of brew doctor command below${noColor}"
+brew doctor
+
+# Ask for confirmation to proceed
+echo
+read -p "Continue with installation? Type 'yes' to continue: " userInput
+if [[ "$userInput" != "yes" ]]; then
+  exit 1
+fi
+
+# -----------------------------------------------------------------------------
+# -----------------------------------------------------------------------------
