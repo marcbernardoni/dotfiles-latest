@@ -370,7 +370,18 @@ echo "This section will:"
 echo "- Fix all the brew caveats"
 echo "- Create all the symlinks that point to my dotfiles"
 
-# -- TODO --
+ln -sfn ~/github/dotfiles-latest/zshrc/zshrc-file.sh ~/.zshrc >/dev/null 2>&1
+
+echo
+echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
+echo "Sourcing ~/.zshrc file, please wait..."
+# Source your zshrc in a new Zsh shell to pull dotfiles-latest
+# Run it in a new zsh process as show below or you'll get a lot of errors
+
+zsh -c "source ~/.zshrc"
+echo
+echo "${boldPurple}>>>>>>>>>>>>>>>>>>>>>>>>>>${noColor}"
+echo "Sourced ~/.zshrc file successfully."
 
 # -----------------------------------------------------------------------------
 # -----------------------------------------------------------------------------
