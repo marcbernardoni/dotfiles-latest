@@ -72,3 +72,4 @@ create_symlink() {
 # Creating symlinks for files
 create_symlink ~/github/dotfiles-latest/zshrc/zshrc-file.sh ~/.zshrc
 create_symlink ~/github/dotfiles-latest/kitty ~/.config/kitty
+create_symlink ~/github/dotfiles-latest/aerospace ~/.config/aerospace
