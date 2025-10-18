@@ -3,6 +3,7 @@
 
 # Adding taps (repo) on top as I was getting errors
 tap "FelixKratz/formulae"
+tap "nikitabobko/tap"
 
 brew "wget"			        # Internet file retriever
 brew "fzf"			        # Command-line fuzzy finder written in Go
@@ -24,6 +25,7 @@ cask "kitty"			    # GPU-based terminal emulator
 cask "wezterm"			    # GPU-accelerated cross-platform terminal emulator and multiplexer
 cask "ghostty"			    # Terminal emulator that uses platform-native UI and GPU acceleration
 cask "coconutbattery"		# Tool to show live information about the batteries in various devices
+cask "aerospace"            # AeroSpace is an i3-like tiling window manager for macOS
 
 brew "jq"			        # Lightweight and flexible command-line JSON processor
 brew "sketchybar"		    # Highly flexible, customizable, fast and powerful status bar
