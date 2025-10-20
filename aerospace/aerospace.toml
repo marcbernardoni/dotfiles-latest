@@ -122,6 +122,10 @@ automatically-unhide-macos-hidden-apps = false
     alt-8 = 'workspace 8'
     alt-9 = 'workspace 9'
     alt-b = 'workspace B' # browser
+    alt-c = 'workspace C' # chat
+    alt-d = 'workspace D' # documents
+    alt-m = 'workspace M' # music
+    alt-n = 'workspace N' # notes
     alt-t = 'workspace T' # terminal
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
@@ -135,6 +139,10 @@ automatically-unhide-macos-hidden-apps = false
     alt-shift-8 = 'move-node-to-workspace 8'
     alt-shift-9 = 'move-node-to-workspace 9'
     alt-shift-b = 'move-node-to-workspace B'
+    alt-shift-c = 'move-node-to-workspace C'
+    alt-shift-d = 'move-node-to-workspace D'
+    alt-shift-m = 'move-node-to-workspace M'
+    alt-shift-n = 'move-node-to-workspace N'
     alt-shift-t = 'move-node-to-workspace T'
     
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
@@ -161,6 +169,28 @@ automatically-unhide-macos-hidden-apps = false
     alt-shift-k = ['join-with up', 'mode main']
     alt-shift-l = ['join-with right', 'mode main']
 
-    down = 'volume down'
-    up = 'volume up'
-    shift-down = ['volume set 0', 'mode main']
+# Terminals
+[[on-window-detected]]
+if.app-id = 'com.github.wez.wezterm'
+run = 'move-node-to-workspace T --focus-follows-window'
+
+[[on-window-detected]]
+if.app-id = 'com.mitchellh.ghostty'
+run = 'move-node-to-workspace T --focus-follows-window'
+
+# Browsers
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome'
+run = 'move-node-to-workspace B --focus-follows-window'
+
+[[on-window-detected]]
+if.app-id = 'com.brave.Browser'
+run = 'move-node-to-workspace B --focus-follows-window'
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.edgemac'
+run = 'move-node-to-workspace B --focus-follows-window'
+
+[[on-window-detected]]
+if.app-id = 'org.vivaldi.Vivaldi'
+run = 'move-node-to-workspace B --focus-follows-window'
