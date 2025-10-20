@@ -9,9 +9,6 @@ mkdir -p ~/.config/ghostty
 # Creating obsidian directory
 # Even if you don't use obsidian, don't remove this dir to avoid warnings
 mkdir -p ~/github/obsidian_main
-mkdir -p ~/.config/neovide
-mkdir -p ~/.config/rio
-mkdir -p ~/.config/yazi
 mkdir -p ~/.config/btop
 mkdir -p ~/.config/fastfetch
 mkdir -p ~/.config/sesh
@@ -72,4 +69,5 @@ create_symlink() {
 # Creating symlinks for files
 create_symlink ~/github/dotfiles-latest/zshrc/zshrc-file.sh ~/.zshrc
 create_symlink ~/github/dotfiles-latest/kitty ~/.config/kitty
+create_symlink ~/github/dotfiles-latest/sketchybar/felixkratz-linkarzu/ ~/.config/sketchybar
 create_symlink ~/github/dotfiles-latest/aerospace ~/.config/aerospace
