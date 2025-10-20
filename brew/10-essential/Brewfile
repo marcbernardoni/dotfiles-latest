@@ -8,6 +8,7 @@ tap "jesseduffield/lazygit"
 cask "font-meslo-lg-nerd-font"
 cask "sf-symbols"
 cask "font-jetbrains-mono-nerd-font"
+cask "font-hack-nerd-font"
 
 brew "neovim"				# Ambitious Vim-fork focused on extensibility and agility
 brew "gnu-sed"				# GNU implementation of the famous stream editor
