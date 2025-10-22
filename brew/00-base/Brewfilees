@@ -8,8 +8,7 @@
 cask "logi-options+"			# Software for Logitech devices
 cask "dockfix"				# Dock replacement
 
-cask "visual-studio-code"		# Microsoft Visual Studio Code, VS Code
-
+cask visual-studio-code			# Microsoft Visual Studio Code, VS Code
 
 # brew "wget"			        # Internet file retriever
 # brew "fzf"			        # Command-line fuzzy finder written in Go
