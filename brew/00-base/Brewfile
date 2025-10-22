@@ -8,6 +8,13 @@
 cask "logi-options+"			# Logitech Options+ Software for Logitech devices
 cask "dockfix"				    # DockFix Dock replacement
 
+# Fonts
+cask "font-meslo-lg-nerd-font"
+cask "sf-symbols"
+cask "font-jetbrains-mono-nerd-font"
+
+# Editors and IDEs
+cask "neovide-app"			    # No Nonsense Neovim
 cask "visual-studio-code"		# Microsoft Visual Studio Code, VS Code Open-source code editor
 
 # Browsers
