@@ -5,10 +5,20 @@
 # tap "FelixKratz/formulae"
 #tap "nikitabobko/tap"
 
-cask "logi-options+"			# Software for Logitech devices
-cask "dockfix"				# Dock replacement
+cask "logi-options+"			# Logitech Options+ Software for Logitech devices
+cask "dockfix"				    # DockFix Dock replacement
 
-cask "visual-studio-code"		# Microsoft Visual Studio Code, VS Code
+cask "visual-studio-code"		# Microsoft Visual Studio Code, VS Code Open-source code editor
+
+# Browsers
+cask "google-chrome"			# Google Chrome web browser
+cask "firefox"				    # Mozilla Firefox web browser
+cask "brave-browser"		    # Brave web browser
+cask "opera"				    # Opera web browser
+cask "vivaldi"			        # Vivaldi web browser
+
+# Terminals
+cask "ghostty"                   # Terminal emulator that uses platform-native UI and GPU acceleration     
 
 
 # brew "wget"			        # Internet file retriever
