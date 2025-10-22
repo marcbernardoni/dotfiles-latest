@@ -23,7 +23,7 @@ cask "ghostty"                   # Terminal emulator that uses platform-native U
 
 # brew "wget"			        # Internet file retriever
 # brew "fzf"			        # Command-line fuzzy finder written in Go
-brew "git"			        # Distributed revision control system
+brew "git"			            # Distributed revision control system
 # brew "node"			        # Also known as: node.js, node@24, nodejs, npm
 # brew "starship"			    # Cross-shell prompt for astronauts
 # brew "tmux"			        # Terminal multiplexer
